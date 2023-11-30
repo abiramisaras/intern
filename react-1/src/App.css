@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400;1,500;1,900&display=swap');
+
+
+*{
+  margin:0;
+}
+
+:root{
+  --red:#d01c28;
+  --gray:#2e2e2e;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.button{
+  all:unset;
+  padding: 6px 16px;
+  background: var(--red);
+  height: 32px;
+  color:aliceblue;
+  font-weight: 500;
+}
+
+.container{
+  margin:0 auto;
+  max-width:1280px; 
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+   height: 72px;
+  align-items: center  ;
+}
+
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap:24px;
+}
+
+ .hero {
+   display:flex;
+   align-items: center ;
+   height: calc(100vh- 72px);
+ }
+.hero-content{
+  flex-direction: column;
+  width: 78%;
+  gap:36px; 
+}
+ .hero h1{
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+ }
+
+ .hero p{
+  font-weight: 600;
+  color:var(--gray);
+  }
+
+  .hero-btn{
+    display: flex;
+    gap:40px;
+    color: #d01c28;
+
+  }
+
+  .secondary-btn{
+    background: transparent;
+    color: var(--gray);
+    border: 1px solid gray;
+  }
+
+.shopping p{
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.brand-icons{
+  display: flex;
+  gap:16px;
+}
+
+.hero-image{
+  width: 22%;
+}
+
+.centre-img{
+  display: block;
+  margin: 0 auto;
+}
+.red{
+  background-color: red;
+  color: white;
+}
+.shopping{
+  font-size:14px;
+  margin-bottom:8px;
+}
